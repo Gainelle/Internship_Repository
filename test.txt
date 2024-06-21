@@ -1,0 +1,16 @@
+positive:
+Given i login using user ''
+Then i click workplace 
+Then i create a workplace
+Then i add a download widget to the workplace
+Then i click the start botton
+When i search for <productname>
+Then i get results for my product
+Then i click the download button
+Then the file for <productname> downloads
+And i can view the <productname> file in downloads
+
+Example:
+[ coal
+
+Negative:
